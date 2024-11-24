@@ -4,7 +4,7 @@
     "description": "Code Challenges - Code 301",
     "main": "index.js",
     "scripts": {
-      "get-challenge": "`which bash` ./bin/get-challenge.sh",
+      "get-challenge": "bash ./bin/get-challenge.sh",
       "test": "jest --verbose --coverage",
       "lint": "eslint '**/*.js'"
     },
